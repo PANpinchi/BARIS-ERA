@@ -1,4 +1,4 @@
-# BARIS-ERA: Boundary-Aware Refinement with Environmental Robust Adapter Tuning for Underwater Instance Segmentation
+## BARIS-ERA: Boundary-Aware Refinement with Environmental Robust Adapter Tuning for Underwater Instance Segmentation
 This repository is the official PyTorch implementation of BARIS-ERA: Boundary-Aware Refinement with Environmental Robust Adapter Tuning for Underwater Instance Segmentation.
 
 
