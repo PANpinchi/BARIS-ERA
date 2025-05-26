@@ -5,12 +5,7 @@ import mmcv
 from tqdm import tqdm
 
 
-def vis_infer(
-    checkpoints="./outputs_swin_base_ours/epoch_11.pth",  # "./outputs_swin_base_ours_pr2_old/epoch_11.pth", "./outputs_convnext_base_ours/epoch_12.pth"
-    config="./configs/_ours_/mask_rcnn_swin-b-p4-w7_fpn_1x_coco.py",  # './configs/_ours_/ablation/mask_rcnn_swin-b-p4-w7_fpn_1x_coco_pr2.py', "./configs/_ours_/mask_rcnn_convnext-b_p4_w7_fpn_1x_coco.py"
-    data_dir='./data/tmp_imgs/',  # './data/USIS10K/test/', './data/UDW/val/'
-    output_dir='./show_swin_ours_pr2_UIIS/'
-):
+def vis_infer(checkpoints, config, data_dir, output_dir):
     """
     Function to run the DetInferencer for visual inference with default parameters.
     Args:
