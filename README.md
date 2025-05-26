@@ -23,6 +23,7 @@ pip install -v -e .
 
 pip install mmcv-full==1.5.3 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.12.0/index.html
 
+pip install opencv-contrib-python
 pip install terminaltables
 pip install pycocotools
 pip install scikit-learn
@@ -33,9 +34,17 @@ pip install yapf==0.40.1
 ```
 Run the commands below to download the pre-trained model:
 ```bash
-gdown --folder https://drive.google.com/drive/folders/1gL3yVAo5Ffd4mAwxU-a812QyIO--jNzX?usp=drive_link
+mkdir pretrained
+
+cd pretrained
+
+gdown --id 1-nK4MYPiW5bB8wDHbIXzLimRkLLpek6x
+
+gdown --id 1_MxeMnI11CuvWHGEvud7COMwsPyVeNNv
+
+cd ..
 ```
-Note: `*.pth` files should be placed in the `/results_classifier` and `/results_classifier_frozen` folders.
+Note: `*.pth` files should be placed in the `/pretrained` folder.
 
 
 ## Demo

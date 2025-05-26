@@ -45,7 +45,7 @@ def vis_infer(
 
 if __name__ == "__main__":
     # BARIS-ERA Config (Swin Backbone)
-    swin_config = {
+    config = {
         "checkpoints": "./pretrained/baris-era_swin_base.pth",
         "config": "./configs/_ours_/ablation/mask_rcnn_swin-b-p4-w7_fpn_1x_coco_pr2.py",
         "data_dir": "./data/",
@@ -53,7 +53,7 @@ if __name__ == "__main__":
     }
 
     # BARIS-ERA Config (ConvNeXt Backbone)
-    # convnext_config = {
+    # config = {
     #     "checkpoints": "./pretrained/baris-era_convnext_base.pth",
     #     "config": "./configs/_ours_/mask_rcnn_convnext-b_p4_w7_fpn_1x_coco.py",
     #     "data_dir": "./data/",
