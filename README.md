@@ -35,8 +35,17 @@ pip install yapf==0.40.1
 
 ## Demo
 Run the commands below to perform a pretrained model on images.
-
-
 ```bash
 python vis_infer.py
+```
+
+## Citation
+If you use this code, please cite the following:
+```bibtex
+@misc{pan2024_hmropt,
+    title  = {BARIS-ERA: Boundary-Aware Refinement with Environmental Robust Adapter Tuning for Underwater Instance Segmentation},
+    author = {Pin-Chi Pan and Soo-Chang Pei},
+    url    = {https://github.com/PANpinchi/BARIS-ERA},
+    year   = {2025}
+}
 ```
