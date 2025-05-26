@@ -53,12 +53,12 @@ if __name__ == "__main__":
     }
 
     # BARIS-ERA Config (ConvNeXt Backbone)
-    convnext_config = {
-        "checkpoints": "./pretrained/baris-era_convnext_base.pth",
-        "config": "./configs/_ours_/mask_rcnn_convnext-b_p4_w7_fpn_1x_coco.py",
-        "data_dir": "./data/",
-        "output_dir": "./outputs/",
-    }
+    # convnext_config = {
+    #     "checkpoints": "./pretrained/baris-era_convnext_base.pth",
+    #     "config": "./configs/_ours_/mask_rcnn_convnext-b_p4_w7_fpn_1x_coco.py",
+    #     "data_dir": "./data/",
+    #     "output_dir": "./outputs/",
+    # }
 
     vis_infer(
         checkpoints=config["checkpoints"],

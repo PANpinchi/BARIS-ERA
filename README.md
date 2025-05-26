@@ -11,7 +11,6 @@ cd BARIS-ERA
 
 ## Installation and Setup
 To set up the virtual environment and install the required packages, use the following commands:
-
 ```bash
 conda create -n baris_era python=3.10
 
@@ -32,6 +31,12 @@ pip install gdown
 pip install mmcls
 pip install yapf==0.40.1
 ```
+Run the commands below to download the pre-trained model:
+```bash
+gdown --folder https://drive.google.com/drive/folders/1gL3yVAo5Ffd4mAwxU-a812QyIO--jNzX?usp=drive_link
+```
+Note: `*.pth` files should be placed in the `/results_classifier` and `/results_classifier_frozen` folders.
+
 
 ## Demo
 Run the commands below to perform a pretrained model on images.
