@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "✅ Installing PyTorch + CUDA Toolkit via conda..."
-conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch -y
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 
 echo "✅ Installing current project in editable mode..."
 pip install -v -e .
