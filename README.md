@@ -14,8 +14,12 @@ To set up the virtual environment and install the required packages, use the fol
 ```bash
 conda create -n baris_era python=3.10
 
-conda activate baris_era 
+conda activate baris_era
 
+source install_environment.sh
+```
+or manually execute the following command:
+```bash
 # CUDA 11.3
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 
@@ -32,6 +36,7 @@ pip install gdown
 pip install mmcls
 pip install yapf==0.40.1
 ```
+
 Run the commands below to download the pre-trained model:
 ```bash
 mkdir pretrained
